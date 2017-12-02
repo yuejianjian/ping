@@ -1,0 +1,525 @@
+html{
+    font-size: 4vw;
+    font-family: "微软雅黑";
+
+}
+body,div ,p,ul,li{
+    margin:0;
+    padding:0;
+}
+ul ,li{
+    list-style-type:none;
+}
+.huo-img{
+    width:100vw;
+    height:26.53333rem;
+}
+.huo-img img{
+    width:100vw;
+    height:26.53333rem;
+}
+.tijiao{
+    width:100vw;
+    height:3rem;
+}
+.tijiao button{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    text-align: center;
+    line-height:3rem; ;
+    width:100vw;
+    height:3rem;
+    border: none;
+    color:#fff;
+    font-size: 1.11111rem;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(left,#f08419, #f01946); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#f08419, #f01946); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#f08419, #f01946); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#f08419, #f01946);
+}
+.huo-text{
+    width:100vw;
+}
+.huo-text .jiage{
+    font-size: 1.46666667rem;
+    height:1.666667rem;
+    color:#f22525;
+    margin-top:0.666667rem;
+    margin-left:1rem;
+}
+.huo-text .text-1{
+    font-size:0.866667rem ;
+    color:#070707;
+    margin-left:1rem;
+    margin-top:1rem;
+    font-weight: 600;
+}
+.huo-text .text-3{
+    margin:0.666667rem auto 1rem;
+    font-size: 0.8rem;
+    width:23rem;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-ideograph;/*IE*/
+    letter-spacing: 2px;
+    color:rgb(71,71,71);
+}
+.huo-text .text-2{
+    color:rgb(71,71,71);
+    font-size: 0.8rem;
+    margin-left:1rem;
+    color:#000;
+}
+.huo-text .text-4{
+    margin-top:0.33333rem;
+}
+/*信息收集*/
+.zhi-tu{
+    width:100vw;
+    height:5.333333rem;
+    margin-top:1rem;
+}
+.zhi-tu .tu-left{
+    width:6.4rem;
+    height:5.333333rem;
+    float: left;
+}
+.zhi-tu .tu-left img{
+    width:6.4rem;
+    height:5.333333rem;
+    margin-left:1rem;
+}
+.zhi-tu .tu-right{
+    width: 18.6rem;
+    height:5.333333rem;
+    float: right;
+}
+.zhi-tu .tu-right p{
+    font-size: 0.8rem;
+    -webkit-transform: scale(0.83);
+    font-weight: 700;
+    margin-left:0.6666rem;
+    -webkit-text-size-adjust:none;
+}
+.zhi-tu .tu-right .jiage{
+    margin-top:2.5rem;
+    font-size: 1.466667rem;
+}
+.liti .name{
+
+    width:23rem;
+    height:2rem;
+    margin:3rem auto 0rem;
+    box-sizing: border-box;
+}
+.liti .name input,.liti .telphone input{
+    width:23rem;
+    height:2rem;
+    border-left: none;
+    border-right:none;
+    border-top:1px solid rgb(173,173,173);
+    border-bottom:1px solid rgb(173,173,173);
+    outline: none;
+}
+.liti .telphone{
+    width:23rem;
+    height:2rem;
+    margin:0 auto;
+    box-sizing: border-box;
+
+}
+.liti .liji{
+    width:23rem;
+    height:2rem;
+    margin: 2rem auto;
+}
+.liti .liji button{
+    color:#fff;
+    background-color:rgb(65,176,53);
+    border: none;
+    width:23rem;
+    height:2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+/*支付页面一*/
+.zhifu-xian .title{
+    text-align: center;
+    font-size: 0.9rem;
+    color:#000;
+    font-weight: 700;
+    margin-top:1.666667rem;
+}
+.zhifu-xian .jiage{
+    text-align: center;
+    font-size: 1.466667rem;
+    font-weight: 700;
+    margin-top:1rem;
+}
+.zhifu-xian .shoukuan{
+    width:23rem;
+    height:3rem;
+    margin:1rem auto 1.666667rem;
+    border-top:1px solid rgb(173,173,173);
+    border-bottom:1px solid rgb(173,173,173);
+    line-height: 3rem;
+    font-size: 1rem;
+}
+.zhifu-xian .shoukuan .right{
+    float: right;
+}
+.zhifu-xian .liji{
+    width:23rem;
+    height:2rem;
+    margin: 2rem auto;
+}
+.zhifu-xian .liji button{
+    color:#fff;
+    background-color:rgb(65,176,53);
+    border: none;
+    width:23rem;
+    height:2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+/*支付成功页面*/
+.chenggong{
+    width:100vw;
+    height:auto;
+}
+.chenggong .cheng-img{
+    width:100vw;
+    height:3.333333rem;
+    text-align: center;
+    margin-top:3.333333rem;
+}
+.chenggong .cheng-img img{
+    width:3.333333rem;
+    height:3.333333rem;
+}
+.chenggong .cheng-text{
+    width:100vw;
+    height:3rem;
+    font-size: 1.333333rem;
+    text-align: center;
+    margin-top:1rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+.chenggong .cheng-shou{
+    width:100vw;
+    height:3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+.chenggong .cheng-shou .jiaming{
+    color:#000;
+    font-size: 0.8rem;
+}
+.chenggong .cheng-shou .jiage{
+    color:#000;
+    font-size:1.466666rem;
+}
+.chenggong .dindan{
+    width:12rem;
+    height:2.333333rem;
+    margin: 5rem auto;
+}
+.chenggong .dindan button{
+    width:12rem;
+    height:2.333333rem;
+    border:1px solid rgb(65,176,53);
+    text-align: center;
+    line-height: 2.333333rem;
+    border-radius: 5px;
+    background-color:#fff;
+    color:rgb(65,176,53);
+}
+/*邀请拼团页面*/
+.yaoqing{
+    width:100vw;
+    height:100vh;
+}
+.yaoqing .yao-title{
+    width:100vw;
+    height:4rem;
+    background: -webkit-linear-gradient(left,#f01946, #f08419); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#f01946, #f08419); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#f01946, #f08419); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#f01946, #f08419);
+    color:#fff;
+    overflow: hidden;
+}
+.yaoqing .yao-title p{
+    font-size: 1rem;
+    margin-left:1rem;
+    margin-top:0.466667rem;
+
+}
+.yaoqing .xingxi {
+    width:100vw;
+    height:4rem;
+    margin-top:2rem;
+}
+.yaoqing .xingxi .name,.yaoqing .xingxi .telphone{
+    width:23rem;
+    height:2rem;
+    line-height: 2rem;
+    margin:0 auto;
+    border-bottom:1px solid  rgb(173,173,173);
+}
+.yaoqing .shijian{
+    width:100vw;
+    height:3rem;
+    margin:1rem auto;
+    text-align: center;
+    line-height: 3rem;
+}
+.yaoqing .shijian .shi-text{
+    font-size: 1rem;
+    color:#000;
+    font-weight: 700;
+}
+.yaoqing .shijian .shi-shu{
+    font-size: 1rem;
+    color:rgb(249,42,42);
+    font-weight: 700;
+}
+.yaoqing .touxiang,.weiman .touxiang-2{
+    width:23rem;
+    height:8.6rem;
+    margin:1rem auto;
+    line-height: 8.6rem;
+
+}
+.yaoqing .touxiang li,.weiman .touxiang-2 li{
+    float: left;
+    list-style: none;
+    width:3.8rem;
+    height:3.8rem;
+    margin-right: 1rem;
+
+}
+.yaoqing .touxiang .right,.weiman .touxiang-2 .right{
+    margin-right: 0;
+}
+
+.yaoqing .touxiang li img,.weiman .touxiang-2 li img{
+    width:3.8rem;
+    height:3.8rem;
+}
+.yaoqing .jiangping,.weiman .jiangping{
+    width:100vw;
+    height:2rem;
+    font-size: 1rem;
+    color:rgb(66,66,66);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.yaoqing .jiangping span,.weiman .jiangping span{
+    color:rgb(255,0,0);
+    font-size: 2rem;
+}
+.yaoqing .liji,.weiman .liji{
+    width:23rem;
+    height:3rem;
+    margin: 2rem auto;
+}
+.yaoqing .liji button,.weiman .liji button{
+    color:#fff;
+    background-color:#d7282c;
+    border: none;
+    width:23rem;
+    height:3rem;
+    border-radius: 5px;
+    font-size: 1.333333rem;
+    outline: none;
+}
+/*分享拼团*/
+.fengxiang{
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    line-height: 2rem;
+    margin-top:1.666667rem;
+}
+.fengxiang .shijian{
+    width:100vw;
+    height:2rem;
+    color:rgb(249,42,42);
+    font-size: 1.466666rem;
+    font-weight: 700;
+}
+.fengxiang .ershu{
+    height:2rem;
+    color:rgb(47,47,47);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-top:2rem;
+}
+.fengxiang .ershu span{
+    color:rgb(249,42,42);
+    letter-spacing: 2px;
+}
+.fengxiang .cengping{
+    color:rgb(156,156,156);
+    font-size: 12px;
+}
+.fengxiang .feng-tu{
+    width:100vw;
+    height:6rem;
+    margin:5rem auto;
+    text-align: center;
+}
+.fengxiang .feng-tu li{
+    float: left;
+    width:50vw;
+    height:6rem;
+}
+.fengxiang .feng-tu li img{
+    width:3.733333rem;
+    height:3rem;
+}
+.fengxiang .feng-tu li p{
+    font-size: 1rem;
+}
+/*满团页面*/
+.mantuan{
+    width:100vw;
+    height:100vh;
+}
+.mantuan .bg,.weiman .bg{
+    background-color:#f2f2f2;
+    width:100vw;
+    height:7rem;
+    overflow: hidden;
+}
+.mantuan .touxiang,.weiman .touxiang{
+    width:23rem;
+    height:2.466667rem;
+    text-align:center;
+    margin: 2.5rem auto 0;
+}
+.mantuan .touxiang li{
+    width:2.466667rem;
+    height:2.466667rem;
+    float: left;
+    margin:0px 0.5rem;
+
+}
+.mantuan .touxiang .first{
+    margin-left:5.3333rem;
+}
+.mantuan .touxiang .last{
+    float: right;
+    font-size: 3rem;
+    height:2rem;
+    margin-top:-1.8rem;
+}
+.mantuan .touxiang li img{
+    width:2.466667rem;
+    height:2.466667rem;
+}
+.mantuan .baoqian{
+    width:100vw;
+    height:2rem;
+    color:#3f3f3f;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2rem;
+    margin:1rem auto 2rem;
+}
+.mantuan .liji{
+    width:23rem;
+    height:3rem;
+    margin: 2rem auto;
+}
+.mantuan .liji button{
+    color:#fff;
+    background: -webkit-linear-gradient(left,#f01946, #f08419); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#f01946, #f08419); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#f01946, #f08419); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#f01946, #f08419);
+    border: none;
+    width:23rem;
+    height:3rem;
+    border-radius: 5px;
+    font-size: 1.333333rem;
+    outline: none;
+}
+.mantuan .line{
+    width:23rem;
+    height:2rem;
+    margin:0 auto;
+}
+.mantuan .line-1,.mantuan .line-3{
+    width:7rem;
+    height:2rem;
+    float: left;
+    border-bottom: 1px solid #adadad;
+}
+.mantuan .line-3{
+    float: right;
+}
+.mantuan .line-2{
+    width:9rem;
+    height:2rem;
+    float: left;
+    text-align: center;
+   margin-top:1.5rem;
+    color:#454545;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.mantuan .cantuan{
+    width:23rem;
+    height:3rem;
+    margin:1.5rem auto 0rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+.mantuan .cantuan .tou{
+    width:3rem;
+    height:3rem;
+    float: left;
+    line-height: 3rem;
+    text-align: center;
+}
+.mantuan .cantuan .tou img{
+    width:2.466667rem;
+    height:2.466667rem;
+}
+.mantuan .cantuan .xingxi{
+    width:15.8rem;
+    height:3rem;
+    float: left;
+    font-size: 0.8rem;
+}
+.mantuan .cantuan .baoming{
+    width:4.2rem;
+    height:3rem;
+    float: right;
+}
+.mantuan .cantuan .baoming button{
+    width:4.2rem;
+    height:1.533333rem;
+    color:#fff;
+    background-color:rgb(243,40,40);
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    outline: none;
+}
+/*未满团参团*/
+.weiman .liji button{
+    background: -webkit-linear-gradient(left,#f01946, #f08419); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#f01946, #f08419); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#f01946, #f08419); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#f01946, #f08419);
+}
