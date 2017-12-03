@@ -110,13 +110,13 @@ ul ,li{
 .liti .name{
 
     width:23rem;
-    height:2rem;
+    height:3rem;
     margin:3rem auto 0rem;
     box-sizing: border-box;
 }
 .liti .name input,.liti .telphone input{
     width:23rem;
-    height:2rem;
+    height:3rem;
     border-left: none;
     border-right:none;
     border-top:1px solid rgb(173,173,173);
@@ -125,14 +125,14 @@ ul ,li{
 }
 .liti .telphone{
     width:23rem;
-    height:2rem;
+    height:3rem;
     margin:0 auto;
     box-sizing: border-box;
 
 }
 .liti .liji{
     width:23rem;
-    height:2rem;
+    height:3rem;
     margin: 2rem auto;
 }
 .liti .liji button{
@@ -140,7 +140,7 @@ ul ,li{
     background-color:rgb(65,176,53);
     border: none;
     width:23rem;
-    height:2rem;
+    height:3rem;
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
@@ -173,7 +173,7 @@ ul ,li{
 }
 .zhifu-xian .liji{
     width:23rem;
-    height:2rem;
+    height:3rem;
     margin: 2rem auto;
 }
 .zhifu-xian .liji button{
@@ -181,7 +181,7 @@ ul ,li{
     background-color:rgb(65,176,53);
     border: none;
     width:23rem;
-    height:2rem;
+    height:3rem;
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
